@@ -1,0 +1,150 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VMP – Vendedor do Melhor Preço</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #f7f8fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff6600, #ff9900);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .cta {
+      background: #ff6600;
+      color: white;
+      text-align: center;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      display: inline-block;
+      margin-top: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .cta:hover {
+      background: #e65500;
+    }
+
+    footer {
+      background: #222;
+      color: #bbb;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+
+    .highlight {
+      color: #ff6600;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🛒 VMP – Vendedor do Melhor Preço</h1>
+    <p>As melhores ofertas e os menores preços em um só lugar!</p>
+  </header>
+
+  <section>
+    <h2>💰 Economize de Verdade</h2>
+    <p>
+      No <span class="highlight">VMP</span>, comparamos os preços das principais plataformas como <b>Magalu, Shopee, Temu</b> e <b>Mercado Livre</b> 
+      para garantir que você compre com o menor preço e a maior segurança.
+    </p>
+
+    <div class="features">
+      <div class="card">
+        ✅ Comparação de preços em diferentes lojas  
+      </div>
+      <div class="card">
+        💸 Produtos com descontos reais e verificados  
+      </div>
+      <div class="card">
+        🔗 Links diretos para compras seguras  
+      </div>
+      <div class="card">
+        🕒 Promoções atualizadas diariamente  
+      </div>
+    </div>
+
+    <p style="margin-top:2rem;">
+      No <b>VMP</b> você compra mais barato e com confiança.  
+      Porque aqui o lema é claro: <span class="highlight">quem pesquisa no VMP, paga menos!</span>
+    </p>
+  </section>
+
+  <section style="background:#fff5e6;">
+    <h2>🚀 Transforme o VMP em sua renda extra!</h2>
+    <p>
+      Agora você pode <b>ganhar dinheiro vendendo online</b> com o poder do <span class="highlight">Dropshipping</span>!  
+      Automatize sua jornada com o <b>AliDrop</b> e conecte-se a fornecedores confiáveis do 
+      <b>AliExpress, Alibaba</b> e <b>Temu</b> — além de parceiros nos EUA e Europa para entregas rápidas e escalabilidade.
+    </p>
+
+    <ul>
+      <li>🛠️ Automatize seu negócio digital facilmente</li>
+      <li>🌍 Escolha produtos das maiores plataformas do mundo</li>
+      <li>💰 Comece sem precisar de estoque</li>
+      <li>🎯 Liberdade e renda extra garantidas</li>
+    </ul>
+
+    <a class="cta" href="https://get.alidrop.co/46x6cnhicvkz" target="_blank">
+      👉 Comece seu Dropshipping Agora
+    </a>
+  </section>
+
+  <footer>
+    © 2025 VMP – Vendedor do Melhor Preço | Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
